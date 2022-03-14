@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="get"
+        android:id="@+id/get1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="get异步"
+        android:id="@+id/get2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="post"
+        android:id="@+id/post1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="post异步"
+        android:id="@+id/post2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="retrofit get"
+        android:onClick="retrofitGet"
+        android:id="@+id/get3"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="retrofit"
+        android:onClick="retrofitlist"
+        android:id="@+id/retrofit"
+        tools:ignore="OnClick"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="retrofit post"
+        android:onClick="retrofitPost"
+        android:id="@+id/post3"
+        tools:ignore="OnClick"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="retrofit file"
+        android:onClick="retrofitfile"
+        android:id="@+id/file"
+        tools:ignore="OnClick"
+        />
+
+
+
+
+</LinearLayout>
